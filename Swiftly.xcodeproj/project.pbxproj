@@ -12,6 +12,7 @@
 		CFF1CD2E1940D7B30067918D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF1CD2C1940D7B30067918D /* Main.storyboard */; };
 		CFF1CD301940D7B30067918D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF1CD2F1940D7B30067918D /* Images.xcassets */; };
 		CFF1CD3C1940D7B30067918D /* SwiftlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1CD3B1940D7B30067918D /* SwiftlyTests.swift */; };
+		CFF1CD731940F6EC0067918D /* KTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1CD721940F6EC0067918D /* KTCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CFF1CD351940D7B30067918D /* SwiftlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF1CD3A1940D7B30067918D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFF1CD3B1940D7B30067918D /* SwiftlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlyTests.swift; sourceTree = "<group>"; };
+		CFF1CD721940F6EC0067918D /* KTCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CFF1CD2C1940D7B30067918D /* Main.storyboard */,
 				CFF1CD2F1940D7B30067918D /* Images.xcassets */,
 				CFF1CD261940D7B30067918D /* Supporting Files */,
+				CFF1CD721940F6EC0067918D /* KTCollectionViewCell.swift */,
 			);
 			path = Swiftly;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				CFF1CD2B1940D7B30067918D /* ViewController.swift in Sources */,
 				CFF1CD291940D7B30067918D /* AppDelegate.swift in Sources */,
+				CFF1CD731940F6EC0067918D /* KTCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				CFF1CD411940D7B30067918D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF1CD421940D7B30067918D /* Build configuration list for PBXNativeTarget "SwiftlyTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				CFF1CD441940D7B30067918D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
